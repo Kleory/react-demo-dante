@@ -17,7 +17,6 @@ function App() {
         </Switch>
       </CommonLayout>
     </Router>
-    // <div>Hi</div>
   );
 }
 

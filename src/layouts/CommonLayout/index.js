@@ -5,7 +5,7 @@ import s from './style.module.css';
 const CommonLayout = ({ children }) => (
   <div className={s.root}>
     <Menu />
-    <div>{children}</div>
+    <div className={s.wrapper}>{children}</div>
   </div>
 );
 

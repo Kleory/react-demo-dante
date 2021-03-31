@@ -1,4 +1,8 @@
-.root {
+/* .root {
   display: flex;
   color: red;
+} */
+
+.wrapper {
+  margin-left: 250px;
 }

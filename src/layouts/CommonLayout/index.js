@@ -1,9 +1,9 @@
 import Menu from '../../block/Menu';
 
-// import s from './style.css';
+import s from './style.module.css';
 
 const CommonLayout = ({ children }) => (
-  <div>
+  <div className={s.root}>
     <Menu />
     <div>{children}</div>
   </div>

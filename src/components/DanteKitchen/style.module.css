@@ -34,6 +34,11 @@
   line-height: 18.31px;
 }
 
+.contactsIcon a {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
 .header {
   padding: 91px 0 0 45px;
   width: 570px;
@@ -99,4 +104,15 @@ h1 {
   height: 120%;
   width: 110%;
   margin: -11px 0 0 -21px;
+}
+
+.test {
+  height: 300px;
+  width: 800px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url("../../images/test.jpg");
+  background-size: cover;
+  z-index: -2;
 }

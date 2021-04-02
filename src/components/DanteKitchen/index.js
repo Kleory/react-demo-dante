@@ -4,7 +4,7 @@ import Tel from "../../images/tel.svg";
 import Location from "../../images/location.svg";
 import Surf from "../../images/surface1.svg";
 import Image from "../../images/main-image.jpg";
-// import BgImage from "../../images/main-bg-image.jpg"
+import Test from "../../images/test.jpg";
 
 const DanteKitchen = () => (
   <div className={s.root}>
@@ -15,7 +15,9 @@ const DanteKitchen = () => (
           <div className={s.contactsIcon}>
             <div>Адрес: ул. Кузнецкий Мост, 3</div>
             <div>
-              <a>Смотреть на карте</a>
+              <a href="https://goo.gl/maps/LEDzsbiiUVMJEJUu7" target="_blank">
+                Смотреть на карте
+              </a>
             </div>
           </div>
         </div>
@@ -23,7 +25,9 @@ const DanteKitchen = () => (
           <Tel />
           <div className={s.contactsIcon}>
             <div>Телефон для связи</div>
-            <div>8 (903) 780-40-40</div>
+            <a href="tel:+136745677554" class="footer-subHeader">
+              <div>8 (903) 780-40-40</div>
+            </a>
           </div>
         </div>
       </div>
@@ -50,6 +54,7 @@ const DanteKitchen = () => (
     <div className={s.image}>
       <img src={Image} alt="Логотип" />
     </div>
+    <div className={s.test}></div>
   </div>
 );
 

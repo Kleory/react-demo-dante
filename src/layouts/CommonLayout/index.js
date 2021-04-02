@@ -1,11 +1,15 @@
-import Menu from '../../block/Menu';
+import Menu from "../../block/Menu";
 
-import s from './style.module.css';
+import s from "./style.module.css";
 
 const CommonLayout = ({ children }) => (
   <div className={s.root}>
-    <Menu />
-    <div className={s.wrapper}>{children}</div>
+    <div className={s.wrapperLayout}>
+      <div className={s.wrapper}>
+        <Menu />
+      </div>
+      {children}
+    </div>
   </div>
 );
 

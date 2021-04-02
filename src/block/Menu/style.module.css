@@ -1,18 +1,10 @@
 .wrapper {
-  width: 250px;
-  flex-wrap: nowrap;
-  flex: none;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-
-  border-right: solid 1px darkgray;
+  width: 100%;
+  height: 100%;
 }
 
 .logo {
   height: 68px;
-
   margin: 38px 72px 58px 64px;
 }
 
@@ -34,4 +26,17 @@ li {
 
 li:not(:last-child) {
   border-bottom: solid 1px rgba(0, 0, 0, 0.25);
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 57px 80px 0 72px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }

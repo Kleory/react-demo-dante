@@ -1,8 +1,26 @@
-/* .root {
+.root {
   display: flex;
-  color: red;
-} */
+  justify-content: center;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.wrapperLayout {
+  max-width: 1440px;
+  padding-left: 250px;
+  width: 100%;
+  position: relative;
+}
 
 .wrapper {
-  margin-left: 250px;
+  width: 250px;
+  flex-wrap: nowrap;
+  flex: none;
+  position: fixed;
+  top: 0;
+  left: calc(50% - 728px);
+  height: 100%;
+
+  border-right: solid 1px darkgray;
+  box-shadow: -1px 0px 0px 0px rgba(0, 0, 0, 0.1);
 }

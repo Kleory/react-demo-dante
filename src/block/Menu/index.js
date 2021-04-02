@@ -1,5 +1,7 @@
 import s from './style.module.css';
 import image from "../../images/logo01.jpg"
+import Fb from "../../images/fb.svg"
+import Inst from "../../images/inst.svg"
 
 
 const Menu = () => (
@@ -12,17 +14,22 @@ const Menu = () => (
         <a href = ''>Главная</a>
       </li>
       <li>
-        <a>Меню</a>
+        <a href = ''>Меню</a>
       </li>
       <li>
-        <a>Галерея</a>
+        <a href = ''>Галерея</a>
       </li>
       <li>
-        <a>Контакты</a>
+        <a href = ''>Контакты</a>
       </li>
     </ul>
     <div className={s.contacts}>
-      
+      <a href = ''>
+        <Fb />
+      </a>
+      <a href = ''> 
+        <Inst />
+      </a>
     </div>
   </div>
 );

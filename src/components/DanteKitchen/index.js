@@ -1,45 +1,20 @@
 import s from "./style.module.css";
+import HeaderBlock from "../../components/HeaderBlock";
 
-import Tel from "../../images/tel.svg";
-import Location from "../../images/location.svg";
+// import Tel from "../../images/tel.svg";
+// import Location from "../../images/location.svg";
 import Surf from "../../images/surface1.svg";
 import Image from "../../images/main-image.jpg";
-import Test from "../../images/test.jpg";
+// import Test from "../../images/test.jpg";
+import BG from "../../images/main-bg-image.jpg";
+
+const HEADER_TEXT = "DANTE KITCHEN + BAR";
+const TEXT =
+  "Новое стильное место в центре на Кузнецком мосту от команды Saxon+Parole";
 
 const DanteKitchen = () => (
   <div className={s.root}>
-    <div className={s.bgImage}>
-      <div className={s.contactsWrapper}>
-        <div className={s.contacts}>
-          <Location />
-          <div className={s.contactsIcon}>
-            <div>Адрес: ул. Кузнецкий Мост, 3</div>
-            <div>
-              <a href="https://goo.gl/maps/LEDzsbiiUVMJEJUu7" target="_blank">
-                Смотреть на карте
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className={s.contacts}>
-          <Tel />
-          <div className={s.contactsIcon}>
-            <div>Телефон для связи</div>
-            <a href="tel:+136745677554" class="footer-subHeader">
-              <div>8 (903) 780-40-40</div>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className={s.header}>
-        <h1>DANTE KITCHEN + BAR</h1>
-        <div className={s.headerContent}>
-          Новое стильное место в центре на Кузнецком мосту от команды
-          Saxon+Parole
-        </div>
-      </div>
-    </div>
+    <HeaderBlock header_text={HEADER_TEXT} text={TEXT} bg_item={BG} isWhite />
     <div className={s.content}>
       <div className={s.contentCaption}>&mdash; ОТКРЫТИЕ</div>
       <div className={s.contentText}>
@@ -52,7 +27,7 @@ const DanteKitchen = () => (
       <Surf className={s.surf} />
     </div>
     <div className={s.image}>
-      <img src={Image} alt="Логотип" />
+      <img src={Image} alt="Картинка" />
     </div>
     <div className={s.test}></div>
   </div>

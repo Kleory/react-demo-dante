@@ -1,0 +1,82 @@
+.root {
+  height: 465px;
+  position: relative;
+}
+
+.color {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.color a {
+  color: white;
+}
+
+.color a:hover {
+  border-bottom: 1px solid white;
+}
+
+.image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.contactsWrapper {
+  width: 462px;
+  color: inherit;
+  font-size: 0.72rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 56px 0 0 47px;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  color: inherit;
+}
+
+.contactsIcon {
+  margin-left: 20px;
+  line-height: 18.31px;
+  color: inherit;
+}
+
+.contactsIcon a {
+  /* color: white; */
+  /* border-bottom: 1px solid white; */
+}
+
+.header {
+  padding: 91px 0 0 45px;
+  width: 550px;
+  /* color: white; */
+}
+
+h1 {
+  font-family: "Raleway";
+  font-size: 2.5rem;
+  line-height: 52.83px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.color h1 {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.headerContent {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  line-height: 28px;
+}

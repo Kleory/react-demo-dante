@@ -1,11 +1,8 @@
 import s from "./style.module.css";
 import HeaderBlock from "../../components/HeaderBlock";
 
-// import Tel from "../../images/tel.svg";
-// import Location from "../../images/location.svg";
 import Surf from "../../images/surface1.svg";
 import Image from "../../images/main-image.jpg";
-// import Test from "../../images/test.jpg";
 import BG from "../../images/main-bg-image.jpg";
 
 const HEADER_TEXT = "DANTE KITCHEN + BAR";

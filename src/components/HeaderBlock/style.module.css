@@ -12,8 +12,12 @@
   color: white;
 }
 
-.color a:hover {
+.root .color a:hover {
   border-bottom: 1px solid white;
+}
+
+.root a:hover {
+  border-bottom: 1px solid black;
 }
 
 .image {
@@ -43,21 +47,23 @@
   color: inherit;
 }
 
+svg.icon path {
+  fill: black;
+}
+
+svg.iconColor path {
+  fill: #dcdcdc;
+}
+
 .contactsIcon {
   margin-left: 20px;
   line-height: 18.31px;
   color: inherit;
 }
 
-.contactsIcon a {
-  /* color: white; */
-  /* border-bottom: 1px solid white; */
-}
-
 .header {
   padding: 91px 0 0 45px;
   width: 550px;
-  /* color: white; */
 }
 
 h1 {

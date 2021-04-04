@@ -9,7 +9,7 @@ const HeaderBlock = ({ header_text, text, bg_item, isWhite }) => (
     <img src={bg_item} className={cx(s.image)} alt="Фон" />
     <div className={s.contactsWrapper}>
       <div className={s.contacts}>
-        <Location />
+        <Location className={cx(s.icon, isWhite && s.iconColor)} />
         <div className={s.contactsIcon}>
           <div>Адрес: ул. Кузнецкий Мост, 3</div>
           <div>
@@ -20,7 +20,7 @@ const HeaderBlock = ({ header_text, text, bg_item, isWhite }) => (
         </div>
       </div>
       <div className={s.contacts}>
-        <Tel />
+        <Tel className={cx(s.icon, isWhite && s.iconColor)} />
         <div className={s.contactsIcon}>
           <div>Телефон для связи</div>
           <a href="tel:+136745677554" class="footer-subHeader">

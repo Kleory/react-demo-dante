@@ -1,14 +1,14 @@
-import DanteKitchen from '../../components/DanteKitchen'
-import HistoryDante from '../../components/HistoryDante'
-import ChefAndKitchen from '../../components/ChefAndKitchen'
+import DanteKitchen from "../../components/DanteKitchen";
+import HistoryDante from "../../components/HistoryDante";
+import ChefAndKitchen from "../../components/ChefAndKitchen";
 
-import s from './style.module.css';
+import s from "./style.module.css";
 
 const HomePage = () => (
-  <div>
-    <DanteKitchen/>
-    <HistoryDante/>
-    <ChefAndKitchen/>
+  <div className={s.root}>
+    <DanteKitchen />
+    <HistoryDante />
+    <ChefAndKitchen />
   </div>
 );
 

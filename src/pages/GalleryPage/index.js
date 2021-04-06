@@ -8,10 +8,8 @@ const TEXT =
   "Новое стильное место в центре на Кузнецком мосту от команды Saxon+Parole";
 
 const GalleryPage = () => (
-  <div>
-    <div>
-      <HeaderBlock header_text={HEADER_TEXT} text={TEXT} bg_item={BG} isWhite />
-    </div>
+  <div className={s.root}>
+    <HeaderBlock header_text={HEADER_TEXT} text={TEXT} bg_item={BG} isWhite />
   </div>
 );
 

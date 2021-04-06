@@ -23,10 +23,10 @@ const Menu = () => (
       </li>
     </ul>
     <div className={s.contacts}>
-      <a href="">
+      <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
         <Fb />
       </a>
-      <a href="">
+      <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
         <Inst />
       </a>
     </div>

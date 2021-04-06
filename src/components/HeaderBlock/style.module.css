@@ -12,12 +12,12 @@
   color: white;
 }
 
-.root .color a:hover {
-  border-bottom: 1px solid white;
-}
-
 .root a:hover {
   border-bottom: 1px solid black;
+}
+
+.root.color a:hover {
+  border-color: 1px solid white;
 }
 
 .image {

@@ -13,7 +13,11 @@ const HeaderBlock = ({ header_text, text, bg_item, isWhite }) => (
         <div className={s.contactsIcon}>
           <div>Адрес: ул. Кузнецкий Мост, 3</div>
           <div>
-            <a href="https://goo.gl/maps/LEDzsbiiUVMJEJUu7" target="_blank">
+            <a
+              href="https://goo.gl/maps/LEDzsbiiUVMJEJUu7"
+              target="_blank"
+              rel="noreferrer"
+            >
               Смотреть на карте
             </a>
           </div>

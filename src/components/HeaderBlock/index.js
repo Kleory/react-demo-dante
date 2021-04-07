@@ -27,9 +27,7 @@ const HeaderBlock = ({ header_text, text, bg_item, isWhite }) => (
         <Tel className={cx(s.icon, isWhite && s.iconColor)} />
         <div className={s.contactsIcon}>
           <div>Телефон для связи</div>
-          <a href="tel:+136745677554" class="footer-subHeader">
-            8 (903) 780-40-40
-          </a>
+          <a href="tel:+79037804040">8 (903) 780-40-40</a>
         </div>
       </div>
     </div>

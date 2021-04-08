@@ -18,8 +18,6 @@ const HEADER_TEXT = "ГАЛЕРЕЯ DANTE";
 const TEXT =
   "Новое стильное место в центре на Кузнецком мосту от команды Saxon+Parole";
 
-const modalImg = document.documentElement.querySelector(".cardModalImg");
-
 const GalleryPage = () => {
   const [imgPopup, setImgPopup] = useState(false);
 
@@ -62,7 +60,7 @@ const GalleryPage = () => {
             &#10006;
           </div>
           <div className={s.cardModalImg}>
-            <img src={imgPopup} />
+            <img src={imgPopup} alt="Popup" />
           </div>
         </div>
       </div>
